@@ -1,4 +1,4 @@
-# Memory Efficient Color Ensemble
+# SVG Color Analyzer
 
 A Python library for efficiently extracting and analyzing dominant colors from SVG files using memory-optimized clustering techniques.
 
@@ -15,10 +15,10 @@ A Python library for efficiently extracting and analyzing dominant colors from S
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/memory-efficient-color-ensemble.git
+git clone https://github.com/bsasidharan15/svg-color-analyzer.git
 
 # Navigate to the project directory
-cd memory-efficient-color-ensemble
+cd svg-color-analyzer
 
 # Install required dependencies
 pip install -r requirements.txt
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ### Basic Usage
 
 ```python
-from color_ensemble import MemoryEfficientColorEnsemble
+from svg_color_analyzer import MemoryEfficientColorEnsemble
 
 # Initialize the ensemble
 ensemble = MemoryEfficientColorEnsemble(n_colors=5, batch_size=100)
@@ -60,7 +60,7 @@ for i, color in enumerate(dominant_colors, 1):
 ### Visualization
 
 ```python
-from color_ensemble import visualize_colors, create_color_swatches
+from svg_color_analyzer import visualize_colors, create_color_swatches
 
 # Visualize colors as a bar chart
 visualize_colors(dominant_colors, title="Dominant Colors in SVG")
